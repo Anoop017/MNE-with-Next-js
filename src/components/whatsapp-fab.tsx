@@ -16,6 +16,7 @@ export const WhatsAppFAB = () => {
                 size="icon"
                 className="w-16 h-16 rounded-full bg-[#25D366] text-white shadow-2xl transition-all duration-300 transform hover:scale-110 hover:bg-[#128C7E] flex items-center justify-center"
             >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                     src="/whatsapp.png"
                     alt="WhatsApp"

@@ -31,7 +31,7 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start">
             <MneLogo />
             <p className="mt-4 text-sm max-w-xs text-muted-foreground">
-              Pioneering precision engineering for tomorrow's technology.
+              Pioneering precision engineering for tomorrow&apos;s technology.
             </p>
             <div className="mt-6 flex space-x-4">
               <a href="#" className="text-muted-foreground hover:text-accent transition-colors"><Linkedin size={24} /></a>

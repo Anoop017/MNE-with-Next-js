@@ -38,7 +38,7 @@ export default function ContactSection() {
     <section id="contact" className="py-24 md:py-32 bg-background">
       <div className="container mx-auto max-w-screen-xl px-4 md:px-8">
         <FadeIn className="text-center mb-16">
-          <h2 className="font-headline text-4xl md:text-5xl font-bold text-primary">Let's Build Together</h2>
+          <h2 className="font-headline text-4xl md:text-5xl font-bold text-primary">Let&apos;s Build Together</h2>
           <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
             Have a project in mind or need a quote for a specific component? Our team is ready to assist you.
           </p>

@@ -40,7 +40,7 @@ export default function CareersSection() {
             Build Your Future With Us
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-            We're always looking for talented individuals to join our team. Explore our current openings and take the next step in your career.
+            We&apos;re always looking for talented individuals to join our team. Explore our current openings and take the next step in your career.
           </p>
         </FadeIn>
 
@@ -75,7 +75,7 @@ export default function CareersSection() {
 
         <FadeIn delay={600}>
             <div className="mt-20 text-center bg-card p-8 rounded-2xl border">
-                <h3 className="font-headline text-2xl font-bold text-primary">Don't see your role?</h3>
+                <h3 className="font-headline text-2xl font-bold text-primary">Don&apos;t see your role?</h3>
                 <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
                     We are always on the lookout for exceptional talent. If you believe you have what it takes to contribute to our success, send us your resume.
                 </p>
