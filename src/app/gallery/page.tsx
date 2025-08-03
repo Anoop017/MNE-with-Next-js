@@ -10,6 +10,24 @@ import { Maximize, ArrowLeft } from 'lucide-react';
 import MainLayout from '@/components/layout/main-layout';
 import { Button } from '@/components/ui/button';
 
+
+
+const flexibleBusbarImages1 = [
+  { src: '/gallery/Flexible 1.jpg' },
+  { src: '/gallery/Flexible 2.jpg' },
+  { src: '/gallery/Flexible 3.jpg' },
+];
+const flexibleBusbarImages2 = [
+  { src: '/gallery/Flexible 4.jpg' },
+  { src: '/gallery/Flexible 5.jpg' },
+  { src: '/gallery/Flexible 6.jpg' },
+];
+const flexibleBusbarImages3 = [
+  { src: '/gallery/Flexible 7.jpg' },
+  { src: '/gallery/Flexible 8.jpg' },
+  { src: '/gallery/Flexible 9.jpg' },
+];
+
 const placeholderImages = [
   { src: 'https://placehold.co/800x600.png' },
   { src: 'https://placehold.co/800x600.png' },
@@ -18,14 +36,9 @@ const placeholderImages = [
 
 const galleryCategories = {
   'Flexible Busbars': [
-    { title: 'Laminated Busbar', description: 'High-current laminated busbar for power distribution systems.', hint: 'busbar laminated', images: placeholderImages },
-    { title: 'Braided Busbar', description: 'Flexible braided copper busbar for vibration-heavy applications.', hint: 'busbar braided', images: placeholderImages },
-    { title: 'Solid Copper Busbar', description: 'Rigid, high-conductivity solid copper busbar for switchgear.', hint: 'busbar copper', images: placeholderImages },
-    { title: 'Aluminum Busbar', description: 'Lightweight aluminum busbar for cost-effective power transmission.', hint: 'busbar aluminum', images: placeholderImages },
-    { title: 'Insulated Busbar', description: 'Epoxy-coated busbar for enhanced electrical insulation and safety.', hint: 'busbar insulated', images: placeholderImages },
-    { title: 'Custom Busbar Assembly', description: 'Bespoke busbar assemblies designed to customer specifications.', hint: 'busbar custom', images: placeholderImages },
-    { title: 'EV Battery Busbar', description: 'Specialized busbars for electric vehicle battery pack connections.', hint: 'busbar battery', images: placeholderImages },
-    { title: 'Multi-layer Busbar', description: 'Complex multi-layer busbars for compact power electronics.', hint: 'busbar power', images: placeholderImages },
+    { title: 'Flexible Busbar 1', description: 'Flexible busbar products.', hint: 'flexible busbar', images: flexibleBusbarImages1 },
+    { title: 'Flexible Busbar 2', description: 'Gallery of flexible busbar products.', hint: 'flexible busbar', images: flexibleBusbarImages2 },
+    { title: 'Flexible Busbar 3', description: 'Gallery of flexible busbar products.', hint: 'flexible busbar', images: flexibleBusbarImages3 },
   ],
   'Nickel / Tin Plated Components': [
     { title: 'Tin Plated Terminal', description: 'Corrosion-resistant tin-plated terminal for electrical connections.', hint: 'terminal tin', images: placeholderImages },
